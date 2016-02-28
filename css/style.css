@@ -730,7 +730,7 @@ body {
 .about .middle .people {
     width: 160px;
     height: 160px;
-    position: absolute;
+    position: relative;
     left: 50%;
     top: -50px;
     border-radius: 160px;
@@ -743,9 +743,9 @@ body {
     position: relative;
     left: -300px;
 }
-.about .name {
-    padding-top: 150px;
-}
+/*.about .name {*/
+    /*padding-top: 150px;*/
+/*}*/
 .about .middle-left,
 .middle-right {
     padding: 20px;
@@ -784,7 +784,7 @@ body {
     border-radius: 100px;
     border: 5px solid #eee;
 }
-.about .middle-main .year-wrap {
+.about .edu .year-wrap {
     width: 60px;
     height: 140px;
     position: absolute;
@@ -792,7 +792,7 @@ body {
     top: 0px;
     margin-left: -30px;
 }
-.about .middle-main .year {
+.about .edu .year {
     width: 50px;
     height: 30px;
     border: 5px solid #eee;
@@ -812,4 +812,30 @@ body {
 }
 .about .shixi {
     margin-top: 150px;
+}
+img.transform {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+
+    -webkit-transition: all ease 500ms;
+    -moz-transition: all ease 500ms;
+    -ms-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
+}
+img.transform:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+
+    -webkit-transition: all ease 500ms;
+    -moz-transition: all ease 500ms;
+    -ms-transition: all ease 500ms;
+    -o-transition: all ease 500ms;
+    transition: all ease 500ms;
 }
